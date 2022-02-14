@@ -4,8 +4,6 @@ article, section, .card, .all-browsers, .sidenav {
 
 section {
     height: 400px;
-    margin-bottom: 5%;
-    padding-top: 1%;
 }
 
 #home {
@@ -28,7 +26,7 @@ body{
 
 .mySlides {display: none;}
 
-img {vertical-align: middle};
+img {vertical-align: middle}
 
 
 .slideshow-container {
