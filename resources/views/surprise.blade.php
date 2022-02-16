@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-        <img src="img/yoursurprise.png" width="19%">
+    <img src="img/yoursurprise.png" width="19%">
     </section>
 
     <article class="all-browsers">

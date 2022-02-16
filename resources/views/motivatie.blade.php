@@ -2,7 +2,7 @@
 
 @section('content')
 
- <img src="img/ict.png" width="35%">
+    <img src="img/ict.png" width="35%">
 
     <article class="all-browsers">
         <h1>Waarom ICT?</h1>

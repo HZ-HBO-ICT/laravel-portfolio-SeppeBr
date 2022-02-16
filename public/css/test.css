@@ -2,13 +2,10 @@ article, section, .card, .all-browsers, .sidenav {
     background-color: black;
 }
 
-section {
-    height: 400px;
-}
-
 #home {
     height: 700px;
 }
+
 #table {
     height: 100px;
     margin-bottom: 1%;
@@ -16,17 +13,22 @@ section {
 
 * {
     box-sizing: border-box;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
-body{
+
+body {
     font-family: Verdana, sans-serif;
     color: black;
 }
 
-.mySlides {display: none;}
+.mySlides {
+    display: none;
+}
 
-img {vertical-align: middle}
+img {
+    vertical-align: middle
+}
 
 
 .slideshow-container {
@@ -36,7 +38,7 @@ img {vertical-align: middle}
 }
 
 .text {
-    color:white;
+    color: white;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
@@ -77,18 +79,28 @@ img {vertical-align: middle}
 }
 
 @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-    .text {font-size: 11px}
+    .text {
+        font-size: 11px
+    }
 }
 
 ul {
@@ -101,7 +113,7 @@ ul {
 
 li {
     float: left;
-    border-right:1px solid #bbb;
+    border-right: 1px solid #bbb;
 }
 
 li:last-child {
@@ -125,8 +137,6 @@ li a:hover:not(.active) {
 .active {
     background-color: #d10000;
 }
-
-
 
 
 .grid-container {
@@ -198,6 +208,7 @@ body {
     padding: 16px;
     text-align: left;
 }
+
 .card img {
     height: 400px;
 }
@@ -230,8 +241,13 @@ body {
 }
 
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
 }
 
 .all-browsers {
@@ -239,7 +255,7 @@ body {
     padding: 5px;
 }
 
-.all-browsers>h1,
+.all-browsers > h1,
 .browser {
     margin: 10px;
     padding: 5px;

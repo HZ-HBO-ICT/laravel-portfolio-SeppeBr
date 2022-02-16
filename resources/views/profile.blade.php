@@ -2,7 +2,7 @@
 
 @section('content')
 
-        <img src="img/frezen.jpg" alt="Super knappe gozer" width="50%">
+    <img src="img/frezen.jpg" alt="Super knappe gozer" width="50%">
 
     <article class="all-browsers">
         <h1>Seppe Bremmers</h1>
